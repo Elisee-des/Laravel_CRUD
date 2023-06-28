@@ -1,0 +1,13 @@
+composer create-project laravel/laravel example-app
+cd example-app
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+npm install
+npm run build
+php artisan migrate
+
+Apres installation.
+1-gestion des attributs du model dans database/ migrations
+2-php artisan migrate
+3-php artisan make:livewire PostIndex
+4-On ecrit la route dans Route/web.php
