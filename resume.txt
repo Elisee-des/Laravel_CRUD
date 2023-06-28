@@ -11,3 +11,5 @@ Apres installation.
 2-php artisan migrate
 3-php artisan make:livewire PostIndex
 4-On ecrit la route dans Route/web.php
+5-La vue dans ressourece/view Livewire
+6-les methodes dans http
